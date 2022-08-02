@@ -12,9 +12,13 @@ declare module "react-native-parallax-header" {
       titleStyle?: ReactNative.StyleProp<ReactNative.TextStyle>;
       headerMaxHeight?: number;
       headerMinHeight?: number;
+      headerTitleStyle?: ReactNative.StyleProp<ReactNative.TextStyle>;
       scrollEventThrottle?: number;
+      scrollViewStyle?: ReactNative.StyleProp<ReactNative.ViewStyle>;
+      scrollViewProps?: ReactNative.ScrollViewProps;
       extraScrollHeight?: number;
       backgroundImageScale?: number;
+      innerContainerStyle?: ReactNative.StyleProp<ReactNative.ViewStyle>;
       contentContainerStyle?: ReactNative.StyleProp<ReactNative.ViewStyle>;
       containerStyle?: ReactNative.StyleProp<ReactNative.ViewStyle>;
       alwaysShowTitle?: boolean;
